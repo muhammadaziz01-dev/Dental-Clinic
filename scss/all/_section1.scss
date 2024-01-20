@@ -1,0 +1,57 @@
+#section1{
+    width: 100%;
+    padding: 64px 0px 104px;
+
+    .section1-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 48px;
+
+        &__left{
+
+            h1{
+                width: 650px;
+                color: #18181B;
+                font-size: 56px;
+                font-weight: 700;
+                line-height: 74px;
+
+                span{
+                     color: #FFD700;
+                }
+            }
+
+            p{
+                width: 512px;
+                color: #777;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 34px;
+                margin-bottom: 64px;
+            }
+
+            &--btnwrapper{
+                display: flex;
+                align-items: center;
+                gap: 48px;
+
+                &--btn1{
+                    @extend %btn ;
+                }
+                &--btn2{
+                    @extend %btn ;
+                    background:  #FFF;
+                    color:  #52525B;
+                    border: 2px solid #52525B;
+
+                    &:hover{
+                        background:  #516EFF; 
+                        color:  #FFF;
+                        border: 2px solid transparent;
+                    }
+                }
+
+            }
+        }
+    }
+}
