@@ -456,4 +456,52 @@ footer {
   background: #516EFF;
   color: #FFF;
   border: 2px solid transparent;
+}
+
+#section2 {
+  width: 100%;
+  padding: 64px 0px 64px;
+  background: #516EFF;
+}
+#section2 .section2-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 172px;
+}
+#section2 .section2-wrapper--tatil h2 {
+  width: 500px;
+  color: #FFF;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 46px;
+}
+#section2 .section2-wrapper--tatil p {
+  width: 397px;
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 16px;
+}
+#section2 .section2-wrapper--cards {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+#section2 .section2-wrapper--cards--card {
+  display: flex;
+  padding: 24px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  background: #FFF;
+}
+#section2 .section2-wrapper--cards--card p {
+  width: 112px;
+  color: #52525B;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */

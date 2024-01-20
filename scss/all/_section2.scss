@@ -1,0 +1,56 @@
+#section2{
+    width: 100%;
+    padding: 64px 0px 64px;
+    background: #516EFF;    
+
+    .section2-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 172px;
+
+        &--tatil{
+
+            h2{
+                width: 500px;
+                color: #FFF;
+                font-size: 42px;
+                font-weight: 600;
+                line-height: 46px;
+            }
+
+            p{
+                width: 397px;
+                color: #FFF;
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 32px;
+                margin-top: 16px;
+            }
+        }
+
+        &--cards{
+            display: flex;
+            align-items: center;
+            gap: 48px;
+
+            &--card{
+                display: flex;
+                padding: 24px 32px;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+                border-radius: 16px;
+                background: #FFF;
+
+                p{
+                    width: 112px;
+                    color: #52525B;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
