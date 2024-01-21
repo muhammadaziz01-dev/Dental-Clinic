@@ -711,4 +711,83 @@ footer {
   transition: all 0.2s linear;
   color: #516EFF;
   background: #FFF;
+}
+
+#section6 {
+  width: 100%;
+  padding: 128px 0px;
+}
+#section6 .section6-wrapper--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+#section6 .section6-wrapper--top h1 {
+  color: #18181B;
+  text-align: right;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 74px;
+  position: relative;
+}
+#section6 .section6-wrapper--top h1::after {
+  content: "";
+  width: 1030px;
+  height: 1px;
+  background: #BCBCBC;
+  position: absolute;
+  left: 0;
+  bottom: -16px;
+}
+#section6 .section6-wrapper--top h1 span {
+  color: #FFD700;
+  padding-left: 10px;
+}
+#section6 .section6-wrapper--top h2 {
+  width: 446px;
+  height: 128px;
+  color: #18181B;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#section6 .section6-wrapper--top h2 span {
+  font-size: 60px;
+  font-weight: 700;
+}
+#section6 .section6-wrapper--botton {
+  display: flex;
+  align-items: start;
+  gap: 96px;
+}
+#section6 .section6-wrapper--botton--card {
+  display: flex;
+  padding: 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(82, 82, 91, 0.1);
+  background: #F8FAFC;
+}
+#section6 .section6-wrapper--botton--card h3 {
+  width: 176px;
+  color: #18181B;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+#section6 .section6-wrapper--botton--card p {
+  width: 538px;
+  height: 192px;
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.64px;
 }/*# sourceMappingURL=style.css.map */
