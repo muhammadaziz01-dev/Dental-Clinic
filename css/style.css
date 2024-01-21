@@ -578,4 +578,81 @@ footer {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+#senction4 {
+  width: 100%;
+  padding: 128px 0px;
+}
+#senction4 .section4-wrapper--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#senction4 .section4-wrapper--top h1 {
+  width: 502px;
+  height: 128px;
+  color: #18181B;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#senction4 .section4-wrapper--top h1 span {
+  font-size: 60px;
+  font-weight: 700;
+}
+#senction4 .section4-wrapper--top h2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  color: #18181B;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 74px;
+  position: relative;
+}
+#senction4 .section4-wrapper--top h2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -16px;
+  width: 1030px;
+  height: 1px;
+  background: #BCBCBC;
+}
+#senction4 .section4-wrapper--top h2 span {
+  color: #FFD700;
+  padding-left: 10px;
+}
+#senction4 .section4-wrapper--botton {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 72px;
+  column-gap: 72px;
+}
+#senction4 .section4-wrapper--botton--card {
+  display: flex;
+  padding: 40px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(82, 82, 91, 0.1);
+  background: #F8FAFC;
+}
+#senction4 .section4-wrapper--botton--card h3 {
+  width: 320px;
+  color: #18181B;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+#senction4 .section4-wrapper--botton--card p {
+  width: 320px;
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
 }/*# sourceMappingURL=style.css.map */
